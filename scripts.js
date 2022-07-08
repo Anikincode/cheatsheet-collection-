@@ -4,3 +4,6 @@ function buttonPress() {
   x.style.fontSize = "25px"; 
   x.style.color = "red"; 
 }
+
+
+console.log('Hello')
