@@ -8,31 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <script src="/scripts.js"></script>
   </head>
- <!-- index.html -->
-<html>
-  
+  <header>
+    </header>
+    <div class="wrapper">
+<h1>This a webpage with pure HTML/CSS and JS</h1>
+
+  </header>
   <body>
-    <div id="app"></div>
+    <p class="typing-demo">We are coders who write code and a use CSS with<i>style</i>.</p>
 
-    <script type="text/javascript">
-      // Select the div element with 'app' id
-      const app = document.getElementById('app');
-
-      // Create a new H1 element
-      const header = document.createElement('h1');
-
-      // Create a new text node for the H1 element
-      const headerContent = document.createTextNode(
-        'Develop. Preview. Ship. 🚀',
-      );
-
-      // Append the text to the H1 element
-      header.appendChild(headerContent);
-
-      // Place the H1 element inside the div
-      app.appendChild(header);
-    </script>
+   
+    
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    
+    <p id="demo"></p>
+    </div>
   </body>
-
-  <footer></footer>
+  <footer><h4>by Anikincode and Dishpak</h4></footer>
 </html>
